@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font:size=13:antialias=true:autohint=true";
+static char *font = "Maple Mono SC NF:size=13:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
-/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+	"FiraCode Nerd Font:size=13:antialias=true:autohint=true",
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 #endif // FONT2_PATCH
@@ -164,35 +164,35 @@ float alphaUnfocused = 0.9;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
-    [0] = "#000000", /* black   */
-    [1] = "#ff5555", /* red     */
-    [2] = "#50fa7b", /* green   */
-    [3] = "#f1fa8c", /* yellow  */
-    [4] = "#bd93f9", /* blue    */
-    [5] = "#ff79c6", /* magenta */
-    [6] = "#8be9fd", /* cyan    */
-    [7] = "#bbbbbb", /* white   */
+    [0] = "#45475A", /* black   */
+    [1] = "#F38BA8", /* red     */
+    [2] = "#A6E3A1", /* green   */
+    [3] = "#F9E2AF", /* yellow  */
+    [4] = "#89B4FA", /* blue    */
+    [5] = "#F5C2E7", /* magenta */
+    [6] = "#94E2D5", /* cyan    */
+    [7] = "#BAC2DE", /* white   */
 
     /* 8 bright colors */
-    [8] = "#696969",  /* black   */
-    [9] = "#ff5555",  /* red     */
-    [10] = "#50fa7b", /* green   */
-    [11] = "#f1fa8c", /* yellow  */
-    [12] = "#bd93f9", /* blue    */
-    [13] = "#ff79c6", /* magenta */
-    [14] = "#8be9fd", /* cyan    */
-    [15] = "#dddddd", /* white   */
+    [8]  = "#585B70",  /* black   */
+    [9]  = "#F38BA8",  /* red     */
+    [10] = "#A6E3A1", /* green   */
+    [11] = "#F9E2AF", /* yellow  */
+    [12] = "#89B4FA", /* blue    */
+    [13] = "#F5C2E7", /* magenta */
+    [14] = "#94E2D5", /* cyan    */
+    [15] = "#A6ADC8", /* white   */
 
 	[255] = 0,
 
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-    // "#212A2E", /* 258 -> bg */
-	// "#FFFFFF", /* 259 -> fg */
-    // "#1a1b26", /* 258 -> bg */
-    "#222436", /* 258 -> bg */
-	"#c0caf5", /* 259 -> fg */
+	// "#add9e6", /* 256 -> cursor */
+	// "#555555", /* 257 -> rev cursor*/
+ //  "#222436", /* 258 -> bg */
+	// "#c0caf5", /* 259 -> fg */
+	"#F5E0DC", /* 256 -> cursor */
+	"#F5E0DC", /* 257 -> rev cursor*/
+  "#1E1E2E", /* 258 -> bg */
+	"#CDD6F4", /* 259 -> fg */
 };
 
 
